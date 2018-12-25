@@ -13,6 +13,7 @@
 ```bash
 yum install epel-release -y
 yum install redis
+
 systemctl restart redis
 systemctl enable redis
 ```
