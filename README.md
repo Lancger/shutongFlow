@@ -10,9 +10,11 @@
 
 ## 二、部署
 ### 0、依赖组件安装
-```
+```bash
 yum install epel-release -y
 yum install redis
+systemctl restart redis
+systemctl enable redis
 ```
 ### 1、loonflow 部署
 ```bash
