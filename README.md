@@ -9,6 +9,11 @@
     3.celery 针对需要有状态是脚本的工作流，如果都不需要执行脚本  那么可以不启动celery
 
 ## 二、部署
+### 0、依赖组件安装
+```
+yum install epel-release -y
+yum install redis
+```
 ### 1、loonflow 部署
 ```bash
 ## 安装mysql依赖
